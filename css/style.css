@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+
+    background-color: #fff;
+}
+
+*,
+*:before,
+*:after { 
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+/* ---  Container --- */
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ---  Header  --- */
+.header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top:0;
+    left:0;
+    z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+    align-items: center;
+    border-bottom: 1px solid #515369;
+
+}
+
+/* ---  Nav_Link  --- */
+.nav{
+    display:flex;
+    font-size:13px;
+    font-weight:700;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    margin-left: 50px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.1s linear;
+}
+
+.nav__link:first-child{
+    margin-left: 0px;
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+
+/* ---  Intro  --- */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    height: 750px;
+
+    background: #31344e url("../img/intro-bg.jpg") no-repeat center / cover;
+
+}
+
+.intro__inner{
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.intro__title{
+    margin: 0 0 30px;
+    font-family: 'Open Sanse', sans-serif;
+    font-size: 65px;
+    line-height: 1.1;
+    color:#fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.intro__subtitle{
+    font-size:22px;
+    color:#fff;
+    line-height: 1.5; /*33px*/
+    font-weight: 400;
+    margin: 0 0 75px;
+}
+
+/* ---  Button  ---*/
+.btn{ 
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    border-radius: 2px;
+    border:0;
+    cursor: pointer;
+    font-family: 'Railway', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;  
+    text-decoration: none;  
+    transition: background .1s linear;
+}
+
+.btn--red{
+    background-color: #e84545;
+}
+.btn--red:hover{
+    background-color: #dd3434;
+}
+
