@@ -24,8 +24,9 @@ p{
 /* ---  Container --- */
 .container{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 15px
 }
 
 /* ---  Header  --- */
@@ -231,3 +232,69 @@ p{
     color: #fff;
 
 }
+
+/* ---  Team  --- */
+.team{
+    margin: 100px 0 70px;
+
+}
+
+.team__inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+
+}
+
+.team__item{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.team__photo{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team__name{
+    margin-bottom: 8px;
+    font-size: 22px;
+    color: #2d3033
+    
+}
+
+.team__prof{
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e84545
+    
+}
+
+.team__text{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279
+}
+
+/* ---  Social  --- */
+.social{
+    display: flex;
+}
+
+.social__item{
+    margin-right: 5px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    border: 1px solid #e8ecee;
+    justify-content: center;
+}
+
+
+
+
