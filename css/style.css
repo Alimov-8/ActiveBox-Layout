@@ -125,6 +125,7 @@ p{
     text-transform: uppercase;  
     text-decoration: none;  
     transition: background .1s linear;
+    text-align: center;
 }
 
 .btn--red{
@@ -132,6 +133,10 @@ p{
 }
 .btn--red:hover{
     background-color: #dd3434;
+}
+
+.btn--long{
+    min-width: 280px
 }
 
 /* ---  Features  --- */
@@ -363,6 +368,29 @@ p{
     font-weight: 700;
     
 }
+
+
+/* ---  Downloads  --- */
+.download{
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title{
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 28px;
+    color: #2d3033
+}
+
+.download__subtitle{
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
 
 
 
